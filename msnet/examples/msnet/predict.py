@@ -23,7 +23,7 @@ from config import config as cfg
 from config import finalize_configs
 from data import get_eval_dataflow, get_train_dataflow
 from eval import DetectionResult, multithread_predict_dataflow, predict_image
-from modeling.generalized_rcnn_hierachy_inner import ResNetC4Model, ResNetFPNModel
+from modeling.generalized_rcnn_hierachy_inner_03 import ResNetC4Model, ResNetFPNModel
 from viz import (
     draw_annotation, draw_final_outputs, draw_predictions,
     draw_proposal_recall, draw_final_outputs_blackwhite)
