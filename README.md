@@ -48,3 +48,6 @@ $ python predict.py \
 ```
 ## Pre-Trained Model
 Download links: [Google Drive](https://drive.google.com/drive/folders/1aCvZ-jjYKJbserHrdK3X4xS6tLFGIbpp?usp=sharing)
+
+## Acknowledgements
+Our MSNet is based on [Tensorpack](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).
