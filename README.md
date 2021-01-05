@@ -28,5 +28,23 @@ If you find this code useful in your research then please cite
 </div>
 
 # Code
-
-Coming soon.
+## Training
+```
+$ cd ./examples/msnet/
+$ python train.py --config DATA.BASEDIR=data_dir MODE_FPN=True \
+  DATA.VAL=('val',)  DATA.TRAIN=('train',)  \
+  TRAIN.BASE_LR=1e-3 TRAIN.EVAL_PERIOD=1 TRAIN.LR_SCHEDULE=[3000]  \
+  PREPROC.TRAIN_SHORT_EDGE_SIZE=[600,1200] TRAIN.CHECKPOINT_PERIOD=1 DATA.NUM_WORKERS=1 \
+  --load  checkpoint_dir\
+  --logdir log_dir
+```
+## Inferencing
+```
+$ cd ./examples/msnet/
+$ python predict.py \
+ --config DATA.BASEDIR=data_dir MODE_FPN=True \
+ DATA.VAL=('val',)  DATA.TRAIN=('train',) \
+ --load checkpoint_dir --evaluate output_json_file
+```
+## Pre-Trained Model
+Download links: [Google Drive](https://drive.google.com/drive/folders/1aCvZ-jjYKJbserHrdK3X4xS6tLFGIbpp?usp=sharing)
