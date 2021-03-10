@@ -29,6 +29,7 @@ If you find this code useful in your research then please cite
 
 # Code
 ## Training
+Replace /usr/local/lib/python3.6/dist-packages/pycocotools/coco.py and /usr/local/lib/python3.6/dist-packages/pycocotools/cocoeval.py with files on /env folder. And run:
 ```
 $ cd ./examples/msnet/
 $ python train.py --config DATA.BASEDIR=data_dir MODE_FPN=True \
@@ -46,8 +47,13 @@ $ python predict.py \
  DATA.VAL=('val',)  DATA.TRAIN=('train',) \
  --load checkpoint_dir --evaluate output_json_file
 ```
+
+## Google Colab Demo 
+Follow [demo.ipynb](https://github.com/zgzxy001/MSNET/blob/master/demo.ipynb) to run pre-trained models on custom dataset and visulize the prediction results. 
+
 ## Pre-Trained Model
 Download links: [Google Drive](https://drive.google.com/drive/folders/1aCvZ-jjYKJbserHrdK3X4xS6tLFGIbpp?usp=sharing)
+
 
 ## Acknowledgements
 Our MSNet is based on [Tensorpack](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).
