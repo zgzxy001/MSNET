@@ -54,6 +54,9 @@ Follow [demo.ipynb](https://github.com/zgzxy001/MSNET/blob/master/demo.ipynb) to
 ## Pre-Trained Model
 Download links: [Google Drive](https://drive.google.com/drive/folders/1aCvZ-jjYKJbserHrdK3X4xS6tLFGIbpp?usp=sharing)
 
+## License
+Our dataset, code, and models are only for [ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERCIAL RESEARCH USE ONLY](https://docs.google.com/document/d/1NdtHv8v9DulB_7BJpixWlcdXxouOeLRw/edit?usp=sharing&ouid=108800150781554114249&rtpof=true&sd=true).
+
 
 ## Acknowledgements
 Our MSNet is based on [Tensorpack](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).
